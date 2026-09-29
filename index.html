@@ -1,0 +1,173 @@
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="google-site-verification" content="3m8f62Twaja0W0z-4iDPkThRo3zyJpzSYuUbBhi-GEs">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="theme-color" content="">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+<meta name="revisit-after" content="2 days">
+<meta name="coverage" content="worldwide">
+<meta name="country" content="India">
+<meta name="State" content="Tamil Nadu">
+<meta name="city" content="sivakasi">
+<meta name="site" content="sivakasishop.in">
+<meta name="search engines" content="ALL">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" media="(max-width: 750px)">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    
+    <style>
+        .image-container {
+
+            position: relative;
+
+            width: 100%;
+
+            height: 100vh;
+            /* or any other height you want */
+
+            object-fit: contain;
+
+        }
+
+
+
+        .desktop-image {
+
+            display: block;
+
+            //width: 100%;
+
+            height: 100%;
+
+            object-fit: contain;
+
+        }
+
+
+
+        .mobile-image {
+
+            display: none;
+
+            object-fit: contain;
+
+        }
+
+
+
+        .background-image {
+
+            position: absolute;
+
+            top: 0;
+
+            left: 0;
+
+            width: 100%;
+
+            height: 100%;
+
+            //background-image: url('https://static.wixstatic.com/media/7c3420_b3847b67c9594d3b9ec382b6acd4bb43~mv2.png');
+
+            background-size: cover;
+
+            background-position: center;
+
+            filter: blur(8px);
+            /* adjust the blur amount */
+
+            z-index: -1;
+
+        }
+
+
+
+        /* For mobile view */
+
+        @media only screen and (max-width: 768px) {
+
+            .desktop-image {
+
+                display: none;
+
+            }
+
+            .mobile-image {
+
+                display: block;
+
+                width: 100%;
+
+                //height: 100%;
+
+            }
+
+            .background-image {
+
+                background: black;
+
+            }
+
+        }
+
+        .float-button {
+            position: fixed;
+              left: 50%;
+              bottom: 100px;
+              transform: translateX(-50%);
+              background-color: #FF3656; /* Yellow background */
+              color: #FFFFFF; /* Red text */
+              border-radius: 10px;
+              padding: 15px 30px;
+              font-size: 18px;
+              font-weight: bold;
+              text-decoration: none;
+              z-index: 999;
+            font-family: Outfit;
+        }
+                
+          @media only screen and (max-width: 768px) {
+            .float-button {
+              font-size: 14px;
+              padding: 10px 20px;
+            }
+          }
+          
+          @media only screen and (max-width: 480px) {
+            .float-button {
+              font-size: 12px;
+              padding: 8px 15px;
+              bottom: 20px;
+            }
+          }
+        </style>
+    
+</head>
+
+<body style="background: black;">
+    <a href="https://bigfestival.in/">
+    <div class="image-container">
+
+        <img src="desktop_view.png" alt="" class="desktop-image">
+
+        <img src="mobile_view.png" alt="" class="mobile-image">
+
+        <div class="background-image"></div>
+
+    </div>
+    </a>
+
+    <a href="https://bigfestival.in" class="float-button">
+      SHOP NOW
+    </a>
+
+</body>
+
+</html>
